@@ -1,0 +1,4 @@
+- id: hello
+  translation: "Bonjour"
+- id: how_are_you
+  translation: "Comment allez-vous ?"

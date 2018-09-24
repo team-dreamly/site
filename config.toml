@@ -1,0 +1,228 @@
+# Page settings
+baseurl = "localhost:1313"
+title = "Elate theme"
+languageCode = "en-us"
+theme = "hugo-elate-theme"
+DefaultContentLanguage = "en"
+[params]
+  
+  custom_css = []
+
+  # Meta
+  author = ""
+  description = ""
+  email = ""
+  # Languages
+
+
+[languages]
+  [languages.en]
+  languageName = "English"
+  weight = 1.0
+
+
+  [languages.se]
+  languageName = "Svenska"
+  weight = 2.0
+
+  [languages.jp]
+  languageName = "日本語"
+  weight = 3.0
+  # Navigation
+  [params.navigation]
+    brand = "dreamly"
+    home = "home.title"
+    services = "services.title"
+    missions = "missions.title"
+    about = "about.title"
+    contact = "contact.title"
+
+  # Hero section
+  [params.hero]
+    title = "hero.title"
+    subtitle = 'hero.subtitle'
+ 
+  # Intro section
+  # Available icons: http://simplelineicons.com/
+  [params.intro]
+
+  [[params.intro.item]]
+    title = "services.plan.title"
+    description = "services.plan.description"
+    icon = "icon-bulb"
+    img = "img_7.jpg"
+
+  [[params.intro.item]]
+    title = "services.develop.title"
+    description = "services.develop.description"
+    icon = "icon-wrench"
+    img = "img_8.jpg"
+
+  [[params.intro.item]]
+    title = "services.launch.title"
+    description = "services.launch.description"
+    icon = "icon-rocket"
+    img = "img_10.jpg"
+
+  [params.intro.video]
+    enable = false
+    title = "services.movie.title"
+    icon = "icon-play2"
+    url = "https://vimeo.com/channels/staffpicks/93951774"
+
+
+  # mission section
+  [params.missions]
+    enable = true
+    title = "missions.title"
+    description = "missions.description"
+    background = "full_image_3.jpg"
+
+    [[params.missions.item]]
+      title = "missions.strategy.title"
+      description = "missions.strategy.description"
+      icon = "icon-anchor"
+
+    [[params.missions.item]]
+      title = "missions.interface.title"
+      description = "missions.interface.description"
+      icon = "icon-layers2"
+    [[params.missions.item]]
+      title = "missions.video.title"
+      description = "missions.video.description"
+      icon = "icon-video2"
+
+      [[params.missions.item]]
+      title = "missions.ecommerce.title"
+      description = "missions.ecommerce.description"
+      icon = "icon-monitor"
+
+  # Services section
+  [params.services]
+    enable = true
+    title = "services.title"
+    description = "services.title"
+    background = "full_image_3.jpg"
+
+    [[params.services.item]]
+      title = "services.strategy.title"
+      description = "services.interface.title"
+      icon = "icon-anchor"
+
+    [[params.services.item]]
+      title = "services.interface.title"
+      description = "services.interface.title"
+      icon = "icon-layers2"
+    [[params.services.item]]
+      title = "services.video.title"
+      description = "services.video.title"
+      icon = "icon-video2"
+
+      [[params.services.item]]
+      title = "services.ecommerce.title"
+      description = "services.ecommerce.title"      
+      icon = "icon-monitor"
+
+  # About section
+  [params.about]
+    enable = true
+    title = "about.title"
+    description = "about.description"
+
+    [[params.about.item]]
+      name = "Lars Larsson"
+      position = "about.lars.position"
+      description = "about.lars.description"
+      img = "about.lars.picture"
+      alt = "Lars"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-linkedin", "#"]
+      ]
+
+    # [[params.about.item]]
+    #   name = "Rob Smith"
+    #   position = "Web Developer"
+    #   description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+    #   img = "person2.jpg"
+    #   alt = "Person2"
+    #   social = [
+    #     ["icon-twitter", "#"],
+    #     ["icon-facebook", "#"],
+    #     ["icon-github", "#"]
+    #   ]
+
+    # [[params.about.item]]
+    #   name = "Larry Ben"
+    #   position = "Web Designer"
+    #   description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+    #   img = "person3.jpg"
+    #   alt = "Person3"
+    #   social = [
+    #     ["icon-twitter", "#"],
+    #     ["icon-facebook", "#"],
+    #     ["icon-dribbble", "#"]
+    #   ]      
+
+  # Counters section
+  [params.counters]
+    enable = true
+    title = "counter.title"
+    background = "full_image_1.jpg"
+
+    [[params.counters.item]]
+      description = "counter.projects"
+      icon = "icon-briefcase"
+      from = 0
+      to = 89
+      interval = 50
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "counter.lines"
+      icon = "icon-code"
+      from = 0
+      to = 2343409
+      interval = 50
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "counter.cups"
+      icon = "icon-cup"
+      from = 0
+      to = 1302
+      interval = 50
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "counter.clients"
+      icon = "icon-people"
+      from = 0
+      to = 52
+      interval = 50
+      speed = 5000
+
+  # Contact section
+  [params.contact]
+    enable = true
+    map = true
+    form = true
+    title = "contact.title"
+    description = "contact.description"
+    
+    # Available icons: http://simplelineicons.com/
+    details = [
+        ["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
+        # ["icon-phone", "(123) 465-6789"],
+        ["icon-envelope", "info@dreamly.se"],
+        ["icon-twitter", "#twitter"],
+        ["icon-facebook", "#facebook"],
+        ["icon-youtube", "#youtube"]
+      ]
+
+    name = "contact.name"
+    email = "contact.email"
+    phone = "contact.phone"
+    message = "contact.message"
+    button = "contact.submit"
