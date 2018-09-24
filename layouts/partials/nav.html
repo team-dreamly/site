@@ -1,0 +1,56 @@
+    <header role="banner" id="fh5co-header">
+        <div class="container">
+            <!-- <div class="row"> -->
+            <nav class="navbar navbar-default">
+                <div class="navbar-header">
+                    <!-- Mobile Toggle Menu Button -->
+                    <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+                    <a class="navbar-brand" href="/index.html">
+                        <img src="/images/logo-large.png" alt="Dreamly" class="img-responsive img-dreamly">
+                    </a> 
+                </div>
+                
+                <div id="navbar" class="navbar-collapse collapse">
+                  <ul class="nav navbar-nav navbar-right">
+                        
+                    {{ range .Site.Menus.prepend }}
+                        <li><a class="external" href="{{ .URL }}"><span>{{ i18n .Name }}</span></a></li>
+                    {{ end }}
+
+                    <li class="active"><a href="#" data-nav-section="home"><span>{{ i18n .Site.Params.navigation.home }}</span></a></li>
+                    
+                    {{ if .Site.Params.missions.enable }}
+                    <li><a href="#" data-nav-section="missions"><span>{{ i18n .Site.Params.navigation.missions }}</span></a></li> 
+                    {{ end }}
+
+                    {{ if .Site.Params.services.enable }}
+                    <li><a href="#" data-nav-section="services"><span>{{ i18n .Site.Params.navigation.services }}</span></a></li> 
+                    {{ end }}
+
+                    {{ if .Site.Params.about.enable }}
+                    <li><a href="#" data-nav-section="about"><span>{{ i18n .Site.Params.navigation.about }}</span></a></li> 
+                    {{ end }}
+
+                    {{ if .Site.Params.contact.enable }}
+                    <li><a href="#" data-nav-section="contact"><span>{{ i18n .Site.Params.navigation.contact }}</span></a></li> 
+                    {{ end }}
+
+                    {{ range .Site.Menus.postpend }}
+                        <li><a class="external" href="{{ .URL }}"><span>{{ .Name }}</span></a></li>
+                    {{ end }}
+                    {{ if .IsTranslated }}
+
+                    <li>
+                        <nav class="langnav">
+                        {{ range .Translations }}
+                            <a href="{{ .Permalink }}" class="lang"><img src="/images/{{ .Language }}.png" alt="{{ .Language.LanguageName }}" class="img-responsive img-lang"></a>
+                        {{ end}}
+                        </nav>
+                    </li>
+                    {{ end }}
+                </ul>
+            </div>
+        </nav>
+        <!-- </div> -->
+    </div>
+</header>

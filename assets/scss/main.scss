@@ -1,0 +1,15 @@
+@import "animate.scss";
+@import "icomoon.scss";
+@import "magnific-popup.scss";
+@import "style.scss";
+
+html {
+    background-color: none;
+    visibility: unset;
+    font-size: 21px;
+    animation: fadein 2s;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}

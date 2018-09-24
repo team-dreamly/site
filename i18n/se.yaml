@@ -1,4 +1,94 @@
-- id: hello
-  translation: "Goddag"
-- id: how_are_you
-  translation: "Comment allez-vous ?"
+- id: contact.title
+  translation: "Kontakta oss"
+- id: contact.description
+  translation: "Kontakt oss när som helst"
+- id: contact.name
+  translation: "Skriv in ditt förnamn och efternamn"
+- id: contact.email
+  translation: "Skriv in din epostadress"
+- id: contact.phone
+  translation: "Enter telephone number"
+- id: contact.message
+  translation: "Skriv in ditt telefonnummer"
+- id: contact.button
+  translation: "Skicka"
+- id: counters.title
+  translation: "Intressanta siffror"
+- id: counters.projects
+  translation: "Projekt"
+- id: counters.lines
+  translation: "Antal kodrader"
+- id: counters.cutlery
+  translation: "Antal förtärda portioner av udon"
+- id: counters.clients
+  translation: "Kunder"
+- id: about.title
+  translation: "Om oss"
+- id: about.description
+  translation: "Vi är ett gäng vänliga och passionerade nördar som alltid letar efter nya problem att lösa"
+- id: about.lars.name
+  translation: "Lars Larsson"
+- id: about.lars.position
+  translation: "Grundare & CTO"
+- id: about.lars.description
+  translation: "Passionerad om teknologi och Japan"
+- id: about.lars.alt
+  translation: "Lars"
+- id: services.title
+  translation: "Services"
+- id: services.description
+  translation: "Vänligen ta en titt på de tjänster vi erbjuder"
+- id: services.design.title
+  translation: "Design"
+- id: services.design.description
+  translation: "Vi designar vanligtvis för appar & webben men är alltid taggad på nya utmaningar"
+- id: services.software.title
+  translation: "Mjukvara"
+- id: services.software.description
+  translation: "Oavsett om det handlar om en sajt, en app eller en dataanalystjänst - oavsett storlek eller komplexitet - vi leverar med elegans"
+- id: services.hosting.title
+  translation: "Hosting"
+- id: services.hosting.description
+  translation: "Vi nyttjar moderna molnlösningar för att leverera kostnadseffektiv och tillförlitlig hosting"
+- id: services.other.title
+  translation: "Något annat?"
+- id: services.other.description
+  translation: "Något som du behöver ha hjälp med passar inte in? Kontakta oss för att se om vi kan hjälpa till ändå!"
+- id: missions.title
+  translation: "Vår Mission"
+- id: missions.description
+  translation: "Vi bryr oss om dig och oss men även om framtida generationer"
+- id: missions.innovate.title
+  translation: "Lokal innovation"
+- id: missions.innovate.description
+  translation: "Vi vill dela med oss av vår kärlek för teknologi genom att undervisa och stödja vår omgivning. Det gör vi genom att undervisa i utvalda pedagogiska institutioner och arrangera events för att dela kunskap"
+- id: missions.equality.title
+  translation: "Jämlikhet"
+- id: missions.equality.description
+  translation: "Som ingenjörer stödjer vi unika perspektiv och är måna om att skapa en miljö för nya. För att åstadkomma detta skapar vi en arbetsmiljö där skillnader mellan individer är uppskattade och uppmuntrade"
+- id: missions.social.title
+  translation: "Socialt ansvar"
+- id: missions.social.description
+  translation: "Vi tror starkt att den viktigaste tillgången ett företag kan ha är dess anställda och detta ska vara uppenbert för dem. Detta gör vi genom att implementera en svensk modell - minimalisera övertid, betald semester, flexibla arbetstider och, det viktigaste, fika"
+- id: missions.contribute.title
+  translation: "Contribute globally"
+- id: missions.contribute.description
+  translation: "Open source teknologier förlitar vi oss på i många sammanhang och vi ger tillbaka till communityn när vi får ett tillfälle - att ge & få"
+- id: intro.plan.title
+  translation: "Plan"
+- id: intro.plan.description
+  translation: "Genom att tillämpa agila & flexibla processor vi gör verklighet av din dröm med hög kvalitet, transparent kommunikation och din domänkunskap"
+- id: intro.develop.title
+  translation: "Utveckling"
+- id: intro.develop.description
+  translation: "Vår passion möjliggör det för oss att hålla oss uppdaterad med den konstant föränderliga världen vi arbetar i vilket vi nyttjar fullt ut för att leverera bästa möjliga resultat"
+- id: intro.launch.title
+  translation: "Lansering"
+- id: intro.launch.description
+  translation: "Lanserandet av din dröm är enbart en del av resan och vi kommer vara med dig tills du är redo att stå på egna ben"
+- id: intro.video.description
+  translation: ""
+- id: hero.title
+  translation: "Dreamly"
+- id: hero.subtitle
+  translation: "Möjliggör dina drömmar genom att erbjuda hög kvalitativa tjänster inom IT"

@@ -1,4 +1,94 @@
-- id: hello
-  translation: "こんにちは"
-- id: how_are_you
-  translation: "How are you doing?"
+- id: contact.title
+  translation: "Contact"
+- id: contact.description
+  translation: "Please feel free to contact us"
+- id: contact.name
+  translation: "Enter full name"
+- id: contact.email
+  translation: "Enter email"
+- id: contact.phone
+  translation: "Enter telephone number"
+- id: contact.message
+  translation: "Please tell us what you want"
+- id: contact.button
+  translation: "Send email"
+- id: counters.title
+  translation: "Interesting numbers"
+- id: counters.projects
+  translation: "Projects"
+- id: counters.lines
+  translation: "Written lines of code"
+- id: counters.cutlery
+  translation: "Consumed portions of udon"
+- id: counters.clients
+  translation: "Clients"
+- id: about.title
+  translation: "About Us"
+- id: about.description
+  translation: "We're a friendly, passionate bunch of geeks that are always looking for new problems to solve"
+- id: about.lars.name
+  translation: "Lars Larsson"
+- id: about.lars.position
+  translation: "Founder & CTO"
+- id: about.lars.description
+  translation: "Passionate about technology and Japan"
+- id: about.lars.alt
+  translation: "Lars"
+- id: services.title
+  translation: "Services"
+- id: services.description
+  translation: "Please take a look at the services we offer"
+- id: services.design.title
+  translation: "Design"
+- id: services.design.description
+  translation: "We focus on design for software but are always happy for new challenges"
+- id: services.software.title
+  translation: "Software"
+- id: services.software.description
+  translation: "Anything that's a part of powering a website, an app or a big data engine - no matter size or complexity - we will deliver it with excellence"
+- id: services.hosting.title
+  translation: "Hosting"
+- id: services.hosting.description
+  translation: "We are using modern cloud services to offer cost-efficient and reliable hosting"
+- id: services.other.title
+  translation: "Something else?"
+- id: services.other.description
+  translation: "Something you need help with doesn't fit any description? Give us a holler"
+- id: missions.title
+  translation: "Our Mission"
+- id: missions.description
+  translation: "We care about you and us but also about future generations"
+- id: missions.innovate.title
+  translation: "Local innovation"
+- id: missions.innovate.description
+  translation: "We want to share our love for technology through educating and supporting our environment. This we are participanting in selected educational institutions in our vicinity and arrange events for sharing knowledge"
+- id: missions.equality.title
+  translation: "Equality among friends"
+- id: missions.equality.description
+  translation: "As engineers we promote differentiated perspectives and are keen to support the birth of new ones. To achieve this we aspire to create a working environment where differences in individuals are appreciated and encouraged"
+- id: missions.social.title
+  translation: "Social responsibility"
+- id: missions.social.description
+  translation: "We firmly believe that the greatest asset of a company is it's employees and this fact should be apparent for them. This we achieve by employing a swedish model - minimalize overtime, paid vacation, flexible workhours and, most importantly, fika"
+- id: missions.contribute.title
+  translation: "Contribute globally"
+- id: missions.contribute.description
+  translation: "Give and receive - a great deal of the technologies we use are produced fellow engineers all over the world and when we get a chance to give something back we aspire to do so"
+- id: intro.plan.title
+  translation: "Plan"
+- id: intro.plan.description
+  translation: "By giving your dream a form with agile & lean processes we make it possible together to achieve realization"
+- id: intro.develop.title
+  translation: "Develop"
+- id: intro.develop.description
+  translation: "Our passion enables us to stay up to date with the ever changing world of IT which we gladly make thorough use of to deliver the best possible result "
+- id: intro.launch.title
+  translation: "Launch"
+- id: intro.launch.description
+  translation: "Launching your dream is only but a part of the dreams journey and we will stay with you until you are ready to stand on your own"
+- id: intro.video.description
+  translation: ""
+- id: hero.title
+  translation: "Dreamly"
+- id: hero.subtitle
+  translation: "Enabling your dream by providing cutting edge IT services"

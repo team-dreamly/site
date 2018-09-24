@@ -1,0 +1,23 @@
+{
+  "name": "dreamly-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "postcss.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/team-dreamly/site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/team-dreamly/site/issues"
+  },
+  "homepage": "https://github.com/team-dreamly/site#readme",
+  "dependencies": {
+    "autoprefixer": "^9.1.5",
+    "postcss-cli": "^6.0.0"
+  }
+}

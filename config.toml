@@ -1,19 +1,29 @@
 # Page settings
-baseurl = "localhost:1313"
-title = "Elate theme"
+baseurl = "/"
+title = "Dreamly"
 languageCode = "en-us"
-theme = "hugo-elate-theme"
 DefaultContentLanguage = "en"
+enableRobotsTXT = true
+canonifyURLs = true
+minify = true
 [params]
-  
+
+# 5. Make it possible to add CMS for content editing
+# 6. Remove jQuery
+# 7. Remove bootstrap
+# 8. Remove icomoon for fontawesome
+# 9. Fix bugs & check browser compatibility
+
   custom_css = []
 
   # Meta
-  author = ""
-  description = ""
-  email = ""
+  twitter_handle = "@team_dreamly"
+  author = "Dreamly"
+  description = "Enabling your dream by providing cutting edge IT services"
+  title = "Invigorating dreams"
+  email = "info@dreamly.se"
   # Languages
-
+  tags = ["IT","Software","Web","Consulting","Infrastructure","Apps","iOS","Android","Website","App"]
 
 [languages]
   [languages.en]
@@ -47,26 +57,26 @@ DefaultContentLanguage = "en"
   [params.intro]
 
   [[params.intro.item]]
-    title = "services.plan.title"
-    description = "services.plan.description"
+    title = "intro.plan.title"
+    description = "intro.plan.description"
     icon = "icon-bulb"
     img = "img_7.jpg"
 
   [[params.intro.item]]
-    title = "services.develop.title"
-    description = "services.develop.description"
+    title = "intro.develop.title"
+    description = "intro.develop.description"
     icon = "icon-wrench"
     img = "img_8.jpg"
 
   [[params.intro.item]]
-    title = "services.launch.title"
-    description = "services.launch.description"
+    title = "intro.launch.title"
+    description = "intro.launch.description"
     icon = "icon-rocket"
     img = "img_10.jpg"
 
   [params.intro.video]
     enable = false
-    title = "services.movie.title"
+    title = "intro.movie.title"
     icon = "icon-play2"
     url = "https://vimeo.com/channels/staffpicks/93951774"
 
@@ -79,49 +89,49 @@ DefaultContentLanguage = "en"
     background = "full_image_3.jpg"
 
     [[params.missions.item]]
-      title = "missions.strategy.title"
-      description = "missions.strategy.description"
-      icon = "icon-anchor"
+      title = "missions.innovate.title"
+      description = "missions.innovate.description"
+      icon = "icon-map-marker"
 
     [[params.missions.item]]
-      title = "missions.interface.title"
-      description = "missions.interface.description"
-      icon = "icon-layers2"
+      title = "missions.equality.title"
+      description = "missions.equality.description"
+      icon = "icon-users"
     [[params.missions.item]]
-      title = "missions.video.title"
-      description = "missions.video.description"
-      icon = "icon-video2"
+      title = "missions.contribute.title"
+      description = "missions.contribute.description"
+      icon = "icon-globe"
 
       [[params.missions.item]]
-      title = "missions.ecommerce.title"
-      description = "missions.ecommerce.description"
-      icon = "icon-monitor"
+      title = "missions.social.title"
+      description = "missions.social.description"
+      icon = "icon-home"
 
   # Services section
   [params.services]
     enable = true
     title = "services.title"
-    description = "services.title"
+    description = "services.description"
     background = "full_image_3.jpg"
 
     [[params.services.item]]
-      title = "services.strategy.title"
-      description = "services.interface.title"
-      icon = "icon-anchor"
+      title = "services.design.title"
+      description = "services.design.description"
+      icon = "icon-edit"
 
     [[params.services.item]]
-      title = "services.interface.title"
-      description = "services.interface.title"
-      icon = "icon-layers2"
+      title = "services.software.title"
+      description = "services.software.description"
+      icon = "icon-cog"
     [[params.services.item]]
-      title = "services.video.title"
-      description = "services.video.title"
-      icon = "icon-video2"
+      title = "services.hosting.title"
+      description = "services.hosting.description"
+      icon = "icon-server"
 
       [[params.services.item]]
-      title = "services.ecommerce.title"
-      description = "services.ecommerce.title"      
-      icon = "icon-monitor"
+      title = "services.other.title"
+      description = "services.other.description"      
+      icon = "icon-question"
 
   # About section
   [params.about]
@@ -130,57 +140,33 @@ DefaultContentLanguage = "en"
     description = "about.description"
 
     [[params.about.item]]
-      name = "Lars Larsson"
+      name = "about.lars.name"
       position = "about.lars.position"
       description = "about.lars.description"
-      img = "about.lars.picture"
-      alt = "Lars"
+      img = "lars.jpeg"
+      alt = "about.lars.alt"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-linkedin", "#"]
+        ["icon-linkedin", "https://www.linkedin.com/in/larssonlars/"],
+        ["icon-github", "http://github.com/lalarsson"],
+        ["icon-envelope", "lars@dreamly.se"]
       ]
-
-    # [[params.about.item]]
-    #   name = "Rob Smith"
-    #   position = "Web Developer"
-    #   description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-    #   img = "person2.jpg"
-    #   alt = "Person2"
-    #   social = [
-    #     ["icon-twitter", "#"],
-    #     ["icon-facebook", "#"],
-    #     ["icon-github", "#"]
-    #   ]
-
-    # [[params.about.item]]
-    #   name = "Larry Ben"
-    #   position = "Web Designer"
-    #   description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-    #   img = "person3.jpg"
-    #   alt = "Person3"
-    #   social = [
-    #     ["icon-twitter", "#"],
-    #     ["icon-facebook", "#"],
-    #     ["icon-dribbble", "#"]
-    #   ]      
 
   # Counters section
   [params.counters]
     enable = true
-    title = "counter.title"
+    title = "counters.title"
     background = "full_image_1.jpg"
 
     [[params.counters.item]]
-      description = "counter.projects"
+      description = "counters.projects"
       icon = "icon-briefcase"
       from = 0
-      to = 89
-      interval = 50
-      speed = 5000
+      to = 3
+      interval = 1
+      speed = 1000
 
     [[params.counters.item]]
-      description = "counter.lines"
+      description = "counters.lines"
       icon = "icon-code"
       from = 0
       to = 2343409
@@ -188,20 +174,20 @@ DefaultContentLanguage = "en"
       speed = 5000
 
     [[params.counters.item]]
-      description = "counter.cups"
-      icon = "icon-cup"
+      description = "counters.cutlery"
+      icon = "icon-cutlery"
       from = 0
       to = 1302
       interval = 50
       speed = 5000
 
     [[params.counters.item]]
-      description = "counter.clients"
-      icon = "icon-people"
+      description = "counters.clients"
+      icon = "icon-users"
       from = 0
-      to = 52
-      interval = 50
-      speed = 5000
+      to = 3
+      interval = 1
+      speed = 1000
 
   # Contact section
   [params.contact]
@@ -213,16 +199,18 @@ DefaultContentLanguage = "en"
     
     # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
+        # ["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
         # ["icon-phone", "(123) 465-6789"],
         ["icon-envelope", "info@dreamly.se"],
-        ["icon-twitter", "#twitter"],
-        ["icon-facebook", "#facebook"],
-        ["icon-youtube", "#youtube"]
+        ["icon-twitter", "@team_dreamly"],
+        ["icon-facebook", "@teamdreamly"],
+        #["icon-youtube", "https://www.youtube.com/channel/UCi3OcZBNtQbLXaj5Vniv16Q"],
+        ["icon-instagram", "team_dreamly"],
+        ["icon-linkedin", "https://www.linkedin.com/company/dreamly/"]
       ]
 
     name = "contact.name"
     email = "contact.email"
     phone = "contact.phone"
     message = "contact.message"
-    button = "contact.submit"
+    button = "contact.button"
