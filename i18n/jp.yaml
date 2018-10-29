@@ -1,94 +1,94 @@
 - id: contact.title
   translation: "Contact"
 - id: contact.description
-  translation: "Please feel free to contact us"
+  translation: "お気軽にご連絡ください"
 - id: contact.name
-  translation: "Enter full name"
+  translation: "フルネームを入力してください"
 - id: contact.email
-  translation: "Enter email"
+  translation: "メールアドレスを入力してください"
 - id: contact.phone
-  translation: "Enter telephone number"
+  translation: "電話番号を入力してください"
 - id: contact.message
-  translation: "Please tell us what you want"
+  translation: "ご要望をお教えください"
 - id: contact.button
-  translation: "Send email"
+  translation: "メールを送信"
 - id: counters.title
-  translation: "Interesting numbers"
+  translation: "数字で紐解くDreamly"
 - id: counters.projects
-  translation: "Projects"
+  translation: "プロジェクトの数"
 - id: counters.lines
-  translation: "Written lines of code"
+  translation: "書き上げてきたコードの行数"
 - id: counters.cutlery
-  translation: "Consumed portions of udon"
+  translation: "うどんを食した回数"
 - id: counters.clients
-  translation: "Clients"
+  translation: "クライアント数"
 - id: about.title
   translation: "About Us"
 - id: about.description
-  translation: "We're a friendly, passionate bunch of geeks that are always looking for new problems to solve"
+  translation: "常に解決すべき問題を探す、情熱あふれる、フレンドリーな“技術オタク”集団です"
 - id: about.lars.name
-  translation: "Lars Larsson"
+  translation: "ラーション　ラーシュ"
 - id: about.lars.position
-  translation: "Founder & CTO"
+  translation: "創設者兼CTO"
 - id: about.lars.description
-  translation: "Passionate about technology and Japan"
+  translation: "テクノロジーと日本に情熱を燃やす"
 - id: about.lars.alt
   translation: "Lars"
 - id: services.title
   translation: "Services"
 - id: services.description
-  translation: "Please take a look at the services we offer"
+  translation: "弊社提供のサービスをご覧ください"
 - id: services.design.title
-  translation: "Design"
+  translation: "デザイン"
 - id: services.design.description
-  translation: "We focus on design for software but are always happy for new challenges"
+  translation: "主にソフトウェアのデザインに特化しますが、他の挑戦にも積極的です"
 - id: services.software.title
-  translation: "Software"
+  translation: "ソフトウェア"
 - id: services.software.description
-  translation: "Anything that's a part of powering a website, an app or a big data engine - no matter size or complexity - we will deliver it with excellence"
+  translation: "ウェブサイト、アプリ、ビッグデータなどなど…サイズや複雑さに関係なく、最高レベルの成果をお届けします"
 - id: services.hosting.title
-  translation: "Hosting"
+  translation: "ホスティング"
 - id: services.hosting.description
-  translation: "We are using modern cloud services to offer cost-efficient and reliable hosting"
+  translation: "費用対効果と安定性の高い近代的クラウドサービスをご用意しております"
 - id: services.other.title
-  translation: "Something else?"
+  translation: "これ以外の何かをお求めですか？"
 - id: services.other.description
-  translation: "Something you need help with doesn't fit any description? Give us a holler"
+  translation: "説明にない何かについて、サポートをお求めですか？お気軽にお問い合わせください"
 - id: missions.title
   translation: "Our Mission"
 - id: missions.description
-  translation: "We care about you and us but also about future generations"
+  translation: "お客様、弊社スタッフのみならず、私たちは次世代を気にかけています"
 - id: missions.innovate.title
-  translation: "Local innovation"
+  translation: "地域に根ざしたイノベーション"
 - id: missions.innovate.description
-  translation: "We want to share our love for technology through educating and supporting our environment. This we are participanting in selected educational institutions in our vicinity and arrange events for sharing knowledge"
+  translation: "私たちは、環境への意識の高まりをサポートし環境保護の一助となることで、技術に対する愛を分かち合いたいと思っています。具体的には、地域の教育機関の活動に参加し、情報共有のイベント手配を行っています。"
 - id: missions.equality.title
-  translation: "Equality among friends"
+  translation: "全ての人に公平さを"
 - id: missions.equality.description
-  translation: "As engineers we promote differentiated perspectives and are keen to support the birth of new ones. To achieve this we aspire to create a working environment where differences in individuals are appreciated and encouraged"
+  translation: "エンジニアとして、私たちはユニークな視点を推進し、新しい思考の誕生を支援したいと考えています。これを達成するために、私たちは個性の違いが評価、奨励される職場環境の創出に取り組んでいます。"
 - id: missions.social.title
-  translation: "Social responsibility"
+  translation: "社会的責任"
 - id: missions.social.description
-  translation: "We firmly believe that the greatest asset of a company is it's employees and this fact should be apparent for them. This we achieve by employing a swedish model - minimalize overtime, paid vacation, flexible workhours and, most importantly, fika"
+  translation: "私たちは、企業の最大の資産は社員であると確信しており、この事実は社員自身に明らかに示されるべきです。これはスウェーデンならではのモデルを採用することで実現しました。残業を極力減らし、有給を増やし、柔軟な労働時間を設定。そして最も重要なのはフィーカ（コーヒーブレイク）を尊重することです。"
 - id: missions.contribute.title
-  translation: "Contribute globally"
+  translation: "国際的発展に貢献"
 - id: missions.contribute.description
-  translation: "Give and receive - a great deal of the technologies we use are produced fellow engineers all over the world and when we get a chance to give something back we aspire to do so"
+  translation: "私たちが使う技術の大部分は世界中の技術者により生産されています。何かしらの形で恩を返す機会が得られれば、私たちはこれに全力を尽くします。"
 - id: intro.plan.title
-  translation: "Plan"
+  translation: "計画"
 - id: intro.plan.description
-  translation: "By giving your dream a form with agile & lean processes we make it possible together to achieve realization"
+  translation: "機敏かつクリーンなプロセスを用意することで、あなたの夢は形になります。共にその思いを実現しましょう。"
 - id: intro.develop.title
-  translation: "Develop"
+  translation: "開発"
 - id: intro.develop.description
-  translation: "Our passion enables us to stay up to date with the ever changing world of IT which we gladly make thorough use of to deliver the best possible result "
+  translation: "絶えず変化するITの世界であろうと、情熱を絶やすことなく最新の技術を常に駆使し、考え得る最高の結果をお届けします。"
 - id: intro.launch.title
-  translation: "Launch"
+  translation: "ローンチ"
 - id: intro.launch.description
-  translation: "Launching your dream is only but a part of the dreams journey and we will stay with you until you are ready to stand on your own"
+  translation: "あなたの夢のローンチは、より大きな「夢の旅」の一部にすぎません。一人でこなす準備ができるまで、私たちはあなたを支え、あなたに寄り添います。"
 - id: intro.video.description
   translation: ""
 - id: hero.title
   translation: "Dreamly"
 - id: hero.subtitle
-  translation: "Enabling your dream by providing cutting edge IT services"
+  translation: "最新のITサービスからあなたの夢の実現を支援します"
