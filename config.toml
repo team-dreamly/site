@@ -143,12 +143,37 @@ minify = true
       name = "about.lars.name"
       position = "about.lars.position"
       description = "about.lars.description"
-      img = "lars.jpeg"
+      img = "lars.png"
       alt = "about.lars.alt"
       social = [
         ["icon-linkedin", "https://www.linkedin.com/in/larssonlars/"],
         ["icon-github", "http://github.com/lalarsson"],
         ["icon-envelope", "lars@dreamly.se"]
+      ]
+    [[params.about.item]]
+      name = "about.takeshita.name"
+      position = "about.takeshita.position"
+      description = "about.takeshita.description"
+      img = "takeshita.jpg"
+      alt = "about.takeshita.alt"
+      social = [
+        ["icon-envelope", "takeshita@dreamly.se"]
+      ]
+    [[params.about.item]]
+      name = "about.hamakawa.name"
+      position = "about.hamakawa.position"
+      description = "about.hamakawa.description"
+      img = "hamakawa.png"
+      alt = "about.hamakawa.alt"
+      social = [
+      ]
+    [[params.about.item]]
+      name = "about.roger.name"
+      position = "about.roger.position"
+      description = "about.roger.description"
+      img = "roger.jpg"
+      alt = "about.roger.alt"
+      social = [
       ]
 
   # Counters section

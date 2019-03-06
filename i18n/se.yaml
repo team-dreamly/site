@@ -34,6 +34,28 @@
   translation: "Passionerad om teknologi och Japan"
 - id: about.lars.alt
   translation: "Lars"
+- id: about.takeshita.name
+  translation: "Takeshita Yuuya"
+- id: about.takeshita.position
+  translation: "Rådgivare"
+- id: about.takeshita.description
+  translation: "Att få utvecklare och icke-utvecklare att förstå varandra är min passion"
+- id: about.takeshita.alt
+  translation: "Yuuya"
+- id: about.hamakawa.name
+  translation: "Hamakawa Hideaki"
+- id: about.hamakawa.position
+  translation: "Kulturutveckling rådgivare"
+- id: about.hamakawa.description
+  translation: "Utbildning är min passion"
+- id: about.hamakawa.alt
+  translation: "Hammer"
+  - id: about.roger.name
+  translation: "Roger Tedblad"
+- id: about.roger.position
+  translation: "Fullstack utvecklare och ML specialist"
+- id: about.roger.description
+  translation: "Bildigenkänning är min grej"
 - id: services.title
   translation: "Services"
 - id: services.description

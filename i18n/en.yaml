@@ -29,11 +29,35 @@
 - id: about.lars.name
   translation: "Lars Larsson"
 - id: about.lars.position
-  translation: "Founder & CTO"
+  translation: "Founder & CEO"
 - id: about.lars.description
   translation: "Passionate about technology and Japan"
 - id: about.lars.alt
   translation: "Lars"
+- id: about.takeshita.name
+  translation: "Takeshita Yuuya"
+- id: about.takeshita.position
+  translation: "Advisor"
+- id: about.takeshita.description
+  translation: "Making engineers and non-engineers understand each other is my passion"
+- id: about.takeshita.alt
+  translation: "Yuuya"
+  - id: about.hamakawa.name
+  translation: "Hamakawa Takeaki"
+- id: about.hamakawa.position
+  translation: "Culture Development Advisor"
+- id: about.hamakawa.description
+  translation: "Education is my life"
+- id: about.hamakawa.alt
+  translation: "Hammer"
+  - id: about.roger.name
+  translation: "Roger Tedblad"
+- id: about.roger.position
+  translation: "Fullstack Engineer & ML Specialist"
+- id: about.roger.description
+  translation: "Computer vision and fullstack engineering is my stuff"
+- id: about.roger.alt
+  translation: "Roger"
 - id: services.title
   translation: "Services"
 - id: services.description

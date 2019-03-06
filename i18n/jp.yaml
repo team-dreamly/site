@@ -29,12 +29,35 @@
 - id: about.lars.name
   translation: "ラーション　ラーシュ"
 - id: about.lars.position
-  translation: "創設者兼CTO"
+  translation: "創設者兼CEO"
 - id: about.lars.description
   translation: "テクノロジーと日本に情熱を燃やす"
 - id: about.lars.alt
   translation: "Lars"
-- id: services.title
+- id: about.takeshita.name
+  translation: "竹下裕也"
+- id: about.takeshita.position
+  translation: "顧問"
+- id: about.takeshita.description
+  translation: "エンジニアと非エンジニアをお互いに理解させることが私の情熱です"
+- id: about.takeshita.alt
+  translation: "Yuuya"
+- id: about.hamakawa.name
+  translation: "濱川武明"
+- id: about.hamakawa.position
+  translation: "文化開発顧問"
+- id: about.hamakawa.description
+  translation: "教育は私の人生です"
+- id: about.hamakawa.alt
+  translation: "Hammer"
+  - id: about.roger.name
+  translation: "Roger Tedblad"
+- id: about.roger.position
+  translation: "フルスタックエンジニアと機械学習スペシャリスト"
+- id: about.roger.description
+  translation: "コンピュータビジョンとフルスタックエンジニアリングは私のものです"
+- id: about.roger.alt
+  translation: "Roger"
   translation: "Services"
 - id: services.description
   translation: "弊社提供のサービスをご覧ください"
