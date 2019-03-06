@@ -50,7 +50,7 @@
   translation: "教育は私の人生です"
 - id: about.hamakawa.alt
   translation: "Hammer"
-  - id: about.roger.name
+- id: about.roger.name
   translation: "Roger Tedblad"
 - id: about.roger.position
   translation: "フルスタックエンジニアと機械学習スペシャリスト"

@@ -42,7 +42,7 @@
   translation: "Making engineers and non-engineers understand each other is my passion"
 - id: about.takeshita.alt
   translation: "Yuuya"
-  - id: about.hamakawa.name
+- id: about.hamakawa.name
   translation: "Hamakawa Takeaki"
 - id: about.hamakawa.position
   translation: "Culture Development Advisor"
@@ -50,7 +50,7 @@
   translation: "Education is my life"
 - id: about.hamakawa.alt
   translation: "Hammer"
-  - id: about.roger.name
+- id: about.roger.name
   translation: "Roger Tedblad"
 - id: about.roger.position
   translation: "Fullstack Engineer & ML Specialist"

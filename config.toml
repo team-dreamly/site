@@ -143,7 +143,7 @@ minify = true
       name = "about.lars.name"
       position = "about.lars.position"
       description = "about.lars.description"
-      img = "lars.png"
+      img = "lars.jpeg"
       alt = "about.lars.alt"
       social = [
         ["icon-linkedin", "https://www.linkedin.com/in/larssonlars/"],
@@ -159,19 +159,19 @@ minify = true
       social = [
         ["icon-envelope", "takeshita@dreamly.se"]
       ]
-    [[params.about.item]]
-      name = "about.hamakawa.name"
-      position = "about.hamakawa.position"
-      description = "about.hamakawa.description"
-      img = "hamakawa.png"
-      alt = "about.hamakawa.alt"
-      social = [
-      ]
+    # [[params.about.item]]
+    #   name = "about.hamakawa.name"
+    #   position = "about.hamakawa.position"
+    #   description = "about.hamakawa.description"
+    #   img = "hamakawa.png"
+    #   alt = "about.hamakawa.alt"
+    #   social = [
+    #   ]
     [[params.about.item]]
       name = "about.roger.name"
       position = "about.roger.position"
       description = "about.roger.description"
-      img = "roger.jpg"
+      img = "roger.png"
       alt = "about.roger.alt"
       social = [
       ]

@@ -50,7 +50,7 @@
   translation: "Utbildning är min passion"
 - id: about.hamakawa.alt
   translation: "Hammer"
-  - id: about.roger.name
+- id: about.roger.name
   translation: "Roger Tedblad"
 - id: about.roger.position
   translation: "Fullstack utvecklare och ML specialist"
